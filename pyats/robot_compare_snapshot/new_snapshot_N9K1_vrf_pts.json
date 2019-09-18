@@ -1,0 +1,142 @@
+{
+    "vrf": {
+        "N9K1": {
+            "py/state": {
+                "attributes": null,
+                "callables": {},
+                "commands": null,
+                "connections": null,
+                "context_manager": {},
+                "device": "N9K1",
+                "info": {
+                    "vrfs": {
+                        "default": {
+                            "address_family": {
+                                "ipv4": {},
+                                "ipv6": {}
+                            },
+                            "route_distinguisher": "0:0"
+                        },
+                        "management": {
+                            "address_family": {
+                                "ipv4": {},
+                                "ipv6": {}
+                            },
+                            "route_distinguisher": "0:0"
+                        }
+                    }
+                },
+                "ops_schema": {
+                    "info": {
+                        "vrfs": {
+                            "Any  (str) *": {
+                                "address_family": {
+                                    "Any  (str) *": {
+                                        "export-to-global": {
+                                            "export_to_global_map": {
+                                                "missed": [],
+                                                "path": [],
+                                                "schema": "*",
+                                                "schemaType": {
+                                                    "py/type": "builtins.str"
+                                                }
+                                            }
+                                        },
+                                        "import-from-global": {
+                                            "import_from_global_map": {
+                                                "missed": [],
+                                                "path": [],
+                                                "schema": "*",
+                                                "schemaType": {
+                                                    "py/type": "builtins.str"
+                                                }
+                                            }
+                                        },
+                                        "route-targets": {
+                                            "Any  (str) *": {
+                                                "route-target": {
+                                                    "missed": [],
+                                                    "path": [],
+                                                    "schema": "*",
+                                                    "schemaType": {
+                                                        "py/type": "builtins.str"
+                                                    }
+                                                },
+                                                "rt-type": {
+                                                    "missed": [],
+                                                    "path": [],
+                                                    "schema": "*",
+                                                    "schemaType": {
+                                                        "py/type": "builtins.str"
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "routing_table_limit": {
+                                            "routing-table_limit_action": {
+                                                "enable_alert_limit_number": {
+                                                    "alert_limit_number": {
+                                                        "missed": [],
+                                                        "path": [],
+                                                        "schema": "*",
+                                                        "schemaType": {
+                                                            "py/type": "builtins.str"
+                                                        }
+                                                    }
+                                                },
+                                                "enable_alert_percent": {
+                                                    "alert_percent_value": {
+                                                        "missed": [],
+                                                        "path": [],
+                                                        "schema": "*",
+                                                        "schemaType": {
+                                                            "py/type": "builtins.str"
+                                                        }
+                                                    }
+                                                },
+                                                "enable_simple_alert": {
+                                                    "simple_alert": {
+                                                        "missed": [],
+                                                        "path": [],
+                                                        "schema": "*",
+                                                        "schemaType": {
+                                                            "py/type": "builtins.str"
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            "routing_table_limit_number": {
+                                                "missed": [],
+                                                "path": [],
+                                                "schema": "*",
+                                                "schemaType": {
+                                                    "py/type": "builtins.str"
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                "route_distinguisher": {
+                                    "missed": [],
+                                    "path": [],
+                                    "schema": "*",
+                                    "schemaType": {
+                                        "py/type": "builtins.str"
+                                    }
+                                },
+                                "shutdown": {
+                                    "missed": [],
+                                    "path": [],
+                                    "schema": "*",
+                                    "schemaType": {
+                                        "py/type": "builtins.str"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

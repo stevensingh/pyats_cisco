@@ -1,0 +1,1540 @@
+{
+    "routing": {
+        "N9K4": {
+            "py/state": {
+                "attributes": null,
+                "callables": {},
+                "commands": null,
+                "connections": null,
+                "context_manager": {},
+                "device": "N9K4",
+                "info": {
+                    "vrf": {
+                        "Tenant-1": {
+                            "address_family": {
+                                "ipv4": {
+                                    "routes": {
+                                        "10.0.11.0/24": {
+                                            "active": true,
+                                            "metric": 0,
+                                            "next_hop": {
+                                                "next_hop_list": {
+                                                    "1": {
+                                                        "index": 1,
+                                                        "next_hop": "10.0.11.1",
+                                                        "outgoing_interface": "Vlan11",
+                                                        "updated": "04:38:31"
+                                                    }
+                                                }
+                                            },
+                                            "route": "10.0.11.0/24",
+                                            "route_preference": 0,
+                                            "source_protocol": "direct"
+                                        },
+                                        "10.0.11.1/32": {
+                                            "active": true,
+                                            "metric": 0,
+                                            "next_hop": {
+                                                "next_hop_list": {
+                                                    "1": {
+                                                        "index": 1,
+                                                        "next_hop": "10.0.11.1",
+                                                        "outgoing_interface": "Vlan11",
+                                                        "updated": "04:38:31"
+                                                    }
+                                                }
+                                            },
+                                            "route": "10.0.11.1/32",
+                                            "route_preference": 0,
+                                            "source_protocol": "local"
+                                        },
+                                        "10.0.11.11/32": {
+                                            "active": true,
+                                            "route": "10.0.11.11/32"
+                                        },
+                                        "10.0.11.12/32": {
+                                            "active": true,
+                                            "route": "10.0.11.12/32"
+                                        },
+                                        "10.0.11.13/32": {
+                                            "active": true,
+                                            "metric": 0,
+                                            "next_hop": {
+                                                "next_hop_list": {
+                                                    "1": {
+                                                        "index": 1,
+                                                        "next_hop": "10.0.11.13",
+                                                        "outgoing_interface": "Vlan11",
+                                                        "updated": "03:47:33"
+                                                    }
+                                                }
+                                            },
+                                            "route": "10.0.11.13/32",
+                                            "route_preference": 190,
+                                            "source_protocol": "hmm"
+                                        },
+                                        "10.0.11.14/32": {
+                                            "active": true,
+                                            "route": "10.0.11.14/32"
+                                        },
+                                        "10.0.11.15/32": {
+                                            "active": true,
+                                            "route": "10.0.11.15/32"
+                                        },
+                                        "10.0.12.0/24": {
+                                            "active": true,
+                                            "metric": 0,
+                                            "next_hop": {
+                                                "next_hop_list": {
+                                                    "1": {
+                                                        "index": 1,
+                                                        "next_hop": "10.0.12.1",
+                                                        "outgoing_interface": "Vlan12",
+                                                        "updated": "04:38:31"
+                                                    }
+                                                }
+                                            },
+                                            "route": "10.0.12.0/24",
+                                            "route_preference": 0,
+                                            "source_protocol": "direct"
+                                        },
+                                        "10.0.12.1/32": {
+                                            "active": true,
+                                            "metric": 0,
+                                            "next_hop": {
+                                                "next_hop_list": {
+                                                    "1": {
+                                                        "index": 1,
+                                                        "next_hop": "10.0.12.1",
+                                                        "outgoing_interface": "Vlan12",
+                                                        "updated": "04:38:31"
+                                                    }
+                                                }
+                                            },
+                                            "route": "10.0.12.1/32",
+                                            "route_preference": 0,
+                                            "source_protocol": "local"
+                                        },
+                                        "10.0.13.0/24": {
+                                            "active": true,
+                                            "metric": 0,
+                                            "next_hop": {
+                                                "next_hop_list": {
+                                                    "1": {
+                                                        "index": 1,
+                                                        "next_hop": "10.0.13.1",
+                                                        "outgoing_interface": "Vlan13",
+                                                        "updated": "04:38:31"
+                                                    }
+                                                }
+                                            },
+                                            "route": "10.0.13.0/24",
+                                            "route_preference": 0,
+                                            "source_protocol": "direct"
+                                        },
+                                        "10.0.13.1/32": {
+                                            "active": true,
+                                            "metric": 0,
+                                            "next_hop": {
+                                                "next_hop_list": {
+                                                    "1": {
+                                                        "index": 1,
+                                                        "next_hop": "10.0.13.1",
+                                                        "outgoing_interface": "Vlan13",
+                                                        "updated": "04:38:31"
+                                                    }
+                                                }
+                                            },
+                                            "route": "10.0.13.1/32",
+                                            "route_preference": 0,
+                                            "source_protocol": "local"
+                                        },
+                                        "10.0.14.0/24": {
+                                            "active": true,
+                                            "metric": 0,
+                                            "next_hop": {
+                                                "next_hop_list": {
+                                                    "1": {
+                                                        "index": 1,
+                                                        "next_hop": "10.0.14.1",
+                                                        "outgoing_interface": "Vlan14",
+                                                        "updated": "04:38:31"
+                                                    }
+                                                }
+                                            },
+                                            "route": "10.0.14.0/24",
+                                            "route_preference": 0,
+                                            "source_protocol": "direct"
+                                        },
+                                        "10.0.14.1/32": {
+                                            "active": true,
+                                            "metric": 0,
+                                            "next_hop": {
+                                                "next_hop_list": {
+                                                    "1": {
+                                                        "index": 1,
+                                                        "next_hop": "10.0.14.1",
+                                                        "outgoing_interface": "Vlan14",
+                                                        "updated": "04:38:31"
+                                                    }
+                                                }
+                                            },
+                                            "route": "10.0.14.1/32",
+                                            "route_preference": 0,
+                                            "source_protocol": "local"
+                                        },
+                                        "10.0.15.0/24": {
+                                            "active": true,
+                                            "metric": 0,
+                                            "next_hop": {
+                                                "next_hop_list": {
+                                                    "1": {
+                                                        "index": 1,
+                                                        "next_hop": "10.0.15.1",
+                                                        "outgoing_interface": "Vlan15",
+                                                        "updated": "04:38:31"
+                                                    }
+                                                }
+                                            },
+                                            "route": "10.0.15.0/24",
+                                            "route_preference": 0,
+                                            "source_protocol": "direct"
+                                        },
+                                        "10.0.15.1/32": {
+                                            "active": true,
+                                            "metric": 0,
+                                            "next_hop": {
+                                                "next_hop_list": {
+                                                    "1": {
+                                                        "index": 1,
+                                                        "next_hop": "10.0.15.1",
+                                                        "outgoing_interface": "Vlan15",
+                                                        "updated": "04:38:31"
+                                                    }
+                                                }
+                                            },
+                                            "route": "10.0.15.1/32",
+                                            "route_preference": 0,
+                                            "source_protocol": "local"
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "Tenant-2": {
+                            "address_family": {
+                                "ipv4": {
+                                    "routes": {
+                                        "10.0.21.0/24": {
+                                            "active": true,
+                                            "metric": 0,
+                                            "next_hop": {
+                                                "next_hop_list": {
+                                                    "1": {
+                                                        "index": 1,
+                                                        "next_hop": "10.0.21.1",
+                                                        "outgoing_interface": "Vlan21",
+                                                        "updated": "04:38:32"
+                                                    }
+                                                }
+                                            },
+                                            "route": "10.0.21.0/24",
+                                            "route_preference": 0,
+                                            "source_protocol": "direct"
+                                        },
+                                        "10.0.21.1/32": {
+                                            "active": true,
+                                            "metric": 0,
+                                            "next_hop": {
+                                                "next_hop_list": {
+                                                    "1": {
+                                                        "index": 1,
+                                                        "next_hop": "10.0.21.1",
+                                                        "outgoing_interface": "Vlan21",
+                                                        "updated": "04:38:32"
+                                                    }
+                                                }
+                                            },
+                                            "route": "10.0.21.1/32",
+                                            "route_preference": 0,
+                                            "source_protocol": "local"
+                                        },
+                                        "10.0.22.0/24": {
+                                            "active": true,
+                                            "metric": 0,
+                                            "next_hop": {
+                                                "next_hop_list": {
+                                                    "1": {
+                                                        "index": 1,
+                                                        "next_hop": "10.0.22.1",
+                                                        "outgoing_interface": "Vlan22",
+                                                        "updated": "04:38:32"
+                                                    }
+                                                }
+                                            },
+                                            "route": "10.0.22.0/24",
+                                            "route_preference": 0,
+                                            "source_protocol": "direct"
+                                        },
+                                        "10.0.22.1/32": {
+                                            "active": true,
+                                            "metric": 0,
+                                            "next_hop": {
+                                                "next_hop_list": {
+                                                    "1": {
+                                                        "index": 1,
+                                                        "next_hop": "10.0.22.1",
+                                                        "outgoing_interface": "Vlan22",
+                                                        "updated": "04:38:32"
+                                                    }
+                                                }
+                                            },
+                                            "route": "10.0.22.1/32",
+                                            "route_preference": 0,
+                                            "source_protocol": "local"
+                                        },
+                                        "10.0.23.0/24": {
+                                            "active": true,
+                                            "metric": 0,
+                                            "next_hop": {
+                                                "next_hop_list": {
+                                                    "1": {
+                                                        "index": 1,
+                                                        "next_hop": "10.0.23.1",
+                                                        "outgoing_interface": "Vlan23",
+                                                        "updated": "04:38:32"
+                                                    }
+                                                }
+                                            },
+                                            "route": "10.0.23.0/24",
+                                            "route_preference": 0,
+                                            "source_protocol": "direct"
+                                        },
+                                        "10.0.23.1/32": {
+                                            "active": true,
+                                            "metric": 0,
+                                            "next_hop": {
+                                                "next_hop_list": {
+                                                    "1": {
+                                                        "index": 1,
+                                                        "next_hop": "10.0.23.1",
+                                                        "outgoing_interface": "Vlan23",
+                                                        "updated": "04:38:32"
+                                                    }
+                                                }
+                                            },
+                                            "route": "10.0.23.1/32",
+                                            "route_preference": 0,
+                                            "source_protocol": "local"
+                                        },
+                                        "10.0.24.0/24": {
+                                            "active": true,
+                                            "metric": 0,
+                                            "next_hop": {
+                                                "next_hop_list": {
+                                                    "1": {
+                                                        "index": 1,
+                                                        "next_hop": "10.0.24.1",
+                                                        "outgoing_interface": "Vlan24",
+                                                        "updated": "04:38:31"
+                                                    }
+                                                }
+                                            },
+                                            "route": "10.0.24.0/24",
+                                            "route_preference": 0,
+                                            "source_protocol": "direct"
+                                        },
+                                        "10.0.24.1/32": {
+                                            "active": true,
+                                            "metric": 0,
+                                            "next_hop": {
+                                                "next_hop_list": {
+                                                    "1": {
+                                                        "index": 1,
+                                                        "next_hop": "10.0.24.1",
+                                                        "outgoing_interface": "Vlan24",
+                                                        "updated": "04:38:31"
+                                                    }
+                                                }
+                                            },
+                                            "route": "10.0.24.1/32",
+                                            "route_preference": 0,
+                                            "source_protocol": "local"
+                                        },
+                                        "10.0.25.0/24": {
+                                            "active": true,
+                                            "metric": 0,
+                                            "next_hop": {
+                                                "next_hop_list": {
+                                                    "1": {
+                                                        "index": 1,
+                                                        "next_hop": "10.0.25.1",
+                                                        "outgoing_interface": "Vlan25",
+                                                        "updated": "04:38:31"
+                                                    }
+                                                }
+                                            },
+                                            "route": "10.0.25.0/24",
+                                            "route_preference": 0,
+                                            "source_protocol": "direct"
+                                        },
+                                        "10.0.25.1/32": {
+                                            "active": true,
+                                            "metric": 0,
+                                            "next_hop": {
+                                                "next_hop_list": {
+                                                    "1": {
+                                                        "index": 1,
+                                                        "next_hop": "10.0.25.1",
+                                                        "outgoing_interface": "Vlan25",
+                                                        "updated": "04:38:31"
+                                                    }
+                                                }
+                                            },
+                                            "route": "10.0.25.1/32",
+                                            "route_preference": 0,
+                                            "source_protocol": "local"
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "Tenant-3": {
+                            "address_family": {
+                                "ipv4": {
+                                    "routes": {
+                                        "10.0.31.0/24": {
+                                            "active": true,
+                                            "metric": 0,
+                                            "next_hop": {
+                                                "next_hop_list": {
+                                                    "1": {
+                                                        "index": 1,
+                                                        "next_hop": "10.0.31.1",
+                                                        "outgoing_interface": "Vlan31",
+                                                        "updated": "04:38:31"
+                                                    }
+                                                }
+                                            },
+                                            "route": "10.0.31.0/24",
+                                            "route_preference": 0,
+                                            "source_protocol": "direct"
+                                        },
+                                        "10.0.31.1/32": {
+                                            "active": true,
+                                            "metric": 0,
+                                            "next_hop": {
+                                                "next_hop_list": {
+                                                    "1": {
+                                                        "index": 1,
+                                                        "next_hop": "10.0.31.1",
+                                                        "outgoing_interface": "Vlan31",
+                                                        "updated": "04:38:31"
+                                                    }
+                                                }
+                                            },
+                                            "route": "10.0.31.1/32",
+                                            "route_preference": 0,
+                                            "source_protocol": "local"
+                                        },
+                                        "10.0.32.0/24": {
+                                            "active": true,
+                                            "metric": 0,
+                                            "next_hop": {
+                                                "next_hop_list": {
+                                                    "1": {
+                                                        "index": 1,
+                                                        "next_hop": "10.0.32.1",
+                                                        "outgoing_interface": "Vlan32",
+                                                        "updated": "04:38:31"
+                                                    }
+                                                }
+                                            },
+                                            "route": "10.0.32.0/24",
+                                            "route_preference": 0,
+                                            "source_protocol": "direct"
+                                        },
+                                        "10.0.32.1/32": {
+                                            "active": true,
+                                            "metric": 0,
+                                            "next_hop": {
+                                                "next_hop_list": {
+                                                    "1": {
+                                                        "index": 1,
+                                                        "next_hop": "10.0.32.1",
+                                                        "outgoing_interface": "Vlan32",
+                                                        "updated": "04:38:31"
+                                                    }
+                                                }
+                                            },
+                                            "route": "10.0.32.1/32",
+                                            "route_preference": 0,
+                                            "source_protocol": "local"
+                                        },
+                                        "10.0.33.0/24": {
+                                            "active": true,
+                                            "metric": 0,
+                                            "next_hop": {
+                                                "next_hop_list": {
+                                                    "1": {
+                                                        "index": 1,
+                                                        "next_hop": "10.0.33.1",
+                                                        "outgoing_interface": "Vlan33",
+                                                        "updated": "04:38:31"
+                                                    }
+                                                }
+                                            },
+                                            "route": "10.0.33.0/24",
+                                            "route_preference": 0,
+                                            "source_protocol": "direct"
+                                        },
+                                        "10.0.33.1/32": {
+                                            "active": true,
+                                            "metric": 0,
+                                            "next_hop": {
+                                                "next_hop_list": {
+                                                    "1": {
+                                                        "index": 1,
+                                                        "next_hop": "10.0.33.1",
+                                                        "outgoing_interface": "Vlan33",
+                                                        "updated": "04:38:31"
+                                                    }
+                                                }
+                                            },
+                                            "route": "10.0.33.1/32",
+                                            "route_preference": 0,
+                                            "source_protocol": "local"
+                                        },
+                                        "10.0.34.0/24": {
+                                            "active": true,
+                                            "metric": 0,
+                                            "next_hop": {
+                                                "next_hop_list": {
+                                                    "1": {
+                                                        "index": 1,
+                                                        "next_hop": "10.0.34.1",
+                                                        "outgoing_interface": "Vlan34",
+                                                        "updated": "04:38:31"
+                                                    }
+                                                }
+                                            },
+                                            "route": "10.0.34.0/24",
+                                            "route_preference": 0,
+                                            "source_protocol": "direct"
+                                        },
+                                        "10.0.34.1/32": {
+                                            "active": true,
+                                            "metric": 0,
+                                            "next_hop": {
+                                                "next_hop_list": {
+                                                    "1": {
+                                                        "index": 1,
+                                                        "next_hop": "10.0.34.1",
+                                                        "outgoing_interface": "Vlan34",
+                                                        "updated": "04:38:31"
+                                                    }
+                                                }
+                                            },
+                                            "route": "10.0.34.1/32",
+                                            "route_preference": 0,
+                                            "source_protocol": "local"
+                                        },
+                                        "10.0.35.0/24": {
+                                            "active": true,
+                                            "metric": 0,
+                                            "next_hop": {
+                                                "next_hop_list": {
+                                                    "1": {
+                                                        "index": 1,
+                                                        "next_hop": "10.0.35.1",
+                                                        "outgoing_interface": "Vlan35",
+                                                        "updated": "04:38:31"
+                                                    }
+                                                }
+                                            },
+                                            "route": "10.0.35.0/24",
+                                            "route_preference": 0,
+                                            "source_protocol": "direct"
+                                        },
+                                        "10.0.35.1/32": {
+                                            "active": true,
+                                            "metric": 0,
+                                            "next_hop": {
+                                                "next_hop_list": {
+                                                    "1": {
+                                                        "index": 1,
+                                                        "next_hop": "10.0.35.1",
+                                                        "outgoing_interface": "Vlan35",
+                                                        "updated": "04:38:31"
+                                                    }
+                                                }
+                                            },
+                                            "route": "10.0.35.1/32",
+                                            "route_preference": 0,
+                                            "source_protocol": "local"
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "Tenant-4": {
+                            "address_family": {
+                                "ipv4": {
+                                    "routes": {
+                                        "10.0.41.0/24": {
+                                            "active": true,
+                                            "metric": 0,
+                                            "next_hop": {
+                                                "next_hop_list": {
+                                                    "1": {
+                                                        "index": 1,
+                                                        "next_hop": "10.0.41.1",
+                                                        "outgoing_interface": "Vlan41",
+                                                        "updated": "04:38:31"
+                                                    }
+                                                }
+                                            },
+                                            "route": "10.0.41.0/24",
+                                            "route_preference": 0,
+                                            "source_protocol": "direct"
+                                        },
+                                        "10.0.41.1/32": {
+                                            "active": true,
+                                            "metric": 0,
+                                            "next_hop": {
+                                                "next_hop_list": {
+                                                    "1": {
+                                                        "index": 1,
+                                                        "next_hop": "10.0.41.1",
+                                                        "outgoing_interface": "Vlan41",
+                                                        "updated": "04:38:31"
+                                                    }
+                                                }
+                                            },
+                                            "route": "10.0.41.1/32",
+                                            "route_preference": 0,
+                                            "source_protocol": "local"
+                                        },
+                                        "10.0.42.0/24": {
+                                            "active": true,
+                                            "metric": 0,
+                                            "next_hop": {
+                                                "next_hop_list": {
+                                                    "1": {
+                                                        "index": 1,
+                                                        "next_hop": "10.0.42.1",
+                                                        "outgoing_interface": "Vlan42",
+                                                        "updated": "04:38:31"
+                                                    }
+                                                }
+                                            },
+                                            "route": "10.0.42.0/24",
+                                            "route_preference": 0,
+                                            "source_protocol": "direct"
+                                        },
+                                        "10.0.42.1/32": {
+                                            "active": true,
+                                            "metric": 0,
+                                            "next_hop": {
+                                                "next_hop_list": {
+                                                    "1": {
+                                                        "index": 1,
+                                                        "next_hop": "10.0.42.1",
+                                                        "outgoing_interface": "Vlan42",
+                                                        "updated": "04:38:31"
+                                                    }
+                                                }
+                                            },
+                                            "route": "10.0.42.1/32",
+                                            "route_preference": 0,
+                                            "source_protocol": "local"
+                                        },
+                                        "10.0.43.0/24": {
+                                            "active": true,
+                                            "metric": 0,
+                                            "next_hop": {
+                                                "next_hop_list": {
+                                                    "1": {
+                                                        "index": 1,
+                                                        "next_hop": "10.0.43.1",
+                                                        "outgoing_interface": "Vlan43",
+                                                        "updated": "04:38:31"
+                                                    }
+                                                }
+                                            },
+                                            "route": "10.0.43.0/24",
+                                            "route_preference": 0,
+                                            "source_protocol": "direct"
+                                        },
+                                        "10.0.43.1/32": {
+                                            "active": true,
+                                            "metric": 0,
+                                            "next_hop": {
+                                                "next_hop_list": {
+                                                    "1": {
+                                                        "index": 1,
+                                                        "next_hop": "10.0.43.1",
+                                                        "outgoing_interface": "Vlan43",
+                                                        "updated": "04:38:31"
+                                                    }
+                                                }
+                                            },
+                                            "route": "10.0.43.1/32",
+                                            "route_preference": 0,
+                                            "source_protocol": "local"
+                                        },
+                                        "10.0.44.0/24": {
+                                            "active": true,
+                                            "metric": 0,
+                                            "next_hop": {
+                                                "next_hop_list": {
+                                                    "1": {
+                                                        "index": 1,
+                                                        "next_hop": "10.0.44.1",
+                                                        "outgoing_interface": "Vlan44",
+                                                        "updated": "04:38:31"
+                                                    }
+                                                }
+                                            },
+                                            "route": "10.0.44.0/24",
+                                            "route_preference": 0,
+                                            "source_protocol": "direct"
+                                        },
+                                        "10.0.44.1/32": {
+                                            "active": true,
+                                            "metric": 0,
+                                            "next_hop": {
+                                                "next_hop_list": {
+                                                    "1": {
+                                                        "index": 1,
+                                                        "next_hop": "10.0.44.1",
+                                                        "outgoing_interface": "Vlan44",
+                                                        "updated": "04:38:31"
+                                                    }
+                                                }
+                                            },
+                                            "route": "10.0.44.1/32",
+                                            "route_preference": 0,
+                                            "source_protocol": "local"
+                                        },
+                                        "10.0.45.0/24": {
+                                            "active": true,
+                                            "metric": 0,
+                                            "next_hop": {
+                                                "next_hop_list": {
+                                                    "1": {
+                                                        "index": 1,
+                                                        "next_hop": "10.0.45.1",
+                                                        "outgoing_interface": "Vlan45",
+                                                        "updated": "04:38:30"
+                                                    }
+                                                }
+                                            },
+                                            "route": "10.0.45.0/24",
+                                            "route_preference": 0,
+                                            "source_protocol": "direct"
+                                        },
+                                        "10.0.45.1/32": {
+                                            "active": true,
+                                            "metric": 0,
+                                            "next_hop": {
+                                                "next_hop_list": {
+                                                    "1": {
+                                                        "index": 1,
+                                                        "next_hop": "10.0.45.1",
+                                                        "outgoing_interface": "Vlan45",
+                                                        "updated": "04:38:30"
+                                                    }
+                                                }
+                                            },
+                                            "route": "10.0.45.1/32",
+                                            "route_preference": 0,
+                                            "source_protocol": "local"
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "Tenant-5": {
+                            "address_family": {
+                                "ipv4": {
+                                    "routes": {
+                                        "10.0.51.0/24": {
+                                            "active": true,
+                                            "metric": 0,
+                                            "next_hop": {
+                                                "next_hop_list": {
+                                                    "1": {
+                                                        "index": 1,
+                                                        "next_hop": "10.0.51.1",
+                                                        "outgoing_interface": "Vlan51",
+                                                        "updated": "04:38:30"
+                                                    }
+                                                }
+                                            },
+                                            "route": "10.0.51.0/24",
+                                            "route_preference": 0,
+                                            "source_protocol": "direct"
+                                        },
+                                        "10.0.51.1/32": {
+                                            "active": true,
+                                            "metric": 0,
+                                            "next_hop": {
+                                                "next_hop_list": {
+                                                    "1": {
+                                                        "index": 1,
+                                                        "next_hop": "10.0.51.1",
+                                                        "outgoing_interface": "Vlan51",
+                                                        "updated": "04:38:30"
+                                                    }
+                                                }
+                                            },
+                                            "route": "10.0.51.1/32",
+                                            "route_preference": 0,
+                                            "source_protocol": "local"
+                                        },
+                                        "10.0.52.0/24": {
+                                            "active": true,
+                                            "metric": 0,
+                                            "next_hop": {
+                                                "next_hop_list": {
+                                                    "1": {
+                                                        "index": 1,
+                                                        "next_hop": "10.0.52.1",
+                                                        "outgoing_interface": "Vlan52",
+                                                        "updated": "04:38:30"
+                                                    }
+                                                }
+                                            },
+                                            "route": "10.0.52.0/24",
+                                            "route_preference": 0,
+                                            "source_protocol": "direct"
+                                        },
+                                        "10.0.52.1/32": {
+                                            "active": true,
+                                            "metric": 0,
+                                            "next_hop": {
+                                                "next_hop_list": {
+                                                    "1": {
+                                                        "index": 1,
+                                                        "next_hop": "10.0.52.1",
+                                                        "outgoing_interface": "Vlan52",
+                                                        "updated": "04:38:30"
+                                                    }
+                                                }
+                                            },
+                                            "route": "10.0.52.1/32",
+                                            "route_preference": 0,
+                                            "source_protocol": "local"
+                                        },
+                                        "10.0.53.0/24": {
+                                            "active": true,
+                                            "metric": 0,
+                                            "next_hop": {
+                                                "next_hop_list": {
+                                                    "1": {
+                                                        "index": 1,
+                                                        "next_hop": "10.0.53.1",
+                                                        "outgoing_interface": "Vlan53",
+                                                        "updated": "04:38:30"
+                                                    }
+                                                }
+                                            },
+                                            "route": "10.0.53.0/24",
+                                            "route_preference": 0,
+                                            "source_protocol": "direct"
+                                        },
+                                        "10.0.53.1/32": {
+                                            "active": true,
+                                            "metric": 0,
+                                            "next_hop": {
+                                                "next_hop_list": {
+                                                    "1": {
+                                                        "index": 1,
+                                                        "next_hop": "10.0.53.1",
+                                                        "outgoing_interface": "Vlan53",
+                                                        "updated": "04:38:30"
+                                                    }
+                                                }
+                                            },
+                                            "route": "10.0.53.1/32",
+                                            "route_preference": 0,
+                                            "source_protocol": "local"
+                                        },
+                                        "10.0.54.0/24": {
+                                            "active": true,
+                                            "metric": 0,
+                                            "next_hop": {
+                                                "next_hop_list": {
+                                                    "1": {
+                                                        "index": 1,
+                                                        "next_hop": "10.0.54.1",
+                                                        "outgoing_interface": "Vlan54",
+                                                        "updated": "04:38:30"
+                                                    }
+                                                }
+                                            },
+                                            "route": "10.0.54.0/24",
+                                            "route_preference": 0,
+                                            "source_protocol": "direct"
+                                        },
+                                        "10.0.54.1/32": {
+                                            "active": true,
+                                            "metric": 0,
+                                            "next_hop": {
+                                                "next_hop_list": {
+                                                    "1": {
+                                                        "index": 1,
+                                                        "next_hop": "10.0.54.1",
+                                                        "outgoing_interface": "Vlan54",
+                                                        "updated": "04:38:30"
+                                                    }
+                                                }
+                                            },
+                                            "route": "10.0.54.1/32",
+                                            "route_preference": 0,
+                                            "source_protocol": "local"
+                                        },
+                                        "10.0.55.0/24": {
+                                            "active": true,
+                                            "metric": 0,
+                                            "next_hop": {
+                                                "next_hop_list": {
+                                                    "1": {
+                                                        "index": 1,
+                                                        "next_hop": "10.0.55.1",
+                                                        "outgoing_interface": "Vlan55",
+                                                        "updated": "04:38:30"
+                                                    }
+                                                }
+                                            },
+                                            "route": "10.0.55.0/24",
+                                            "route_preference": 0,
+                                            "source_protocol": "direct"
+                                        },
+                                        "10.0.55.1/32": {
+                                            "active": true,
+                                            "metric": 0,
+                                            "next_hop": {
+                                                "next_hop_list": {
+                                                    "1": {
+                                                        "index": 1,
+                                                        "next_hop": "10.0.55.1",
+                                                        "outgoing_interface": "Vlan55",
+                                                        "updated": "04:38:30"
+                                                    }
+                                                }
+                                            },
+                                            "route": "10.0.55.1/32",
+                                            "route_preference": 0,
+                                            "source_protocol": "local"
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "default": {
+                            "address_family": {
+                                "ipv4": {
+                                    "routes": {
+                                        "100.100.100.1/32": {
+                                            "active": true,
+                                            "metric": 41,
+                                            "next_hop": {
+                                                "next_hop_list": {
+                                                    "1": {
+                                                        "index": 1,
+                                                        "next_hop": "172.16.0.5",
+                                                        "outgoing_interface": "Ethernet1/1",
+                                                        "updated": "00:17:10"
+                                                    }
+                                                }
+                                            },
+                                            "route": "100.100.100.1/32",
+                                            "route_preference": 110,
+                                            "source_protocol": "ospf"
+                                        },
+                                        "100.100.100.2/32": {
+                                            "active": true,
+                                            "metric": 41,
+                                            "next_hop": {
+                                                "next_hop_list": {
+                                                    "1": {
+                                                        "index": 1,
+                                                        "next_hop": "172.16.0.17",
+                                                        "outgoing_interface": "Ethernet1/2",
+                                                        "updated": "04:37:19"
+                                                    }
+                                                }
+                                            },
+                                            "route": "100.100.100.2/32",
+                                            "route_preference": 110,
+                                            "source_protocol": "ospf"
+                                        },
+                                        "100.100.100.3/32": {
+                                            "active": true,
+                                            "metric": 81,
+                                            "next_hop": {
+                                                "next_hop_list": {
+                                                    "1": {
+                                                        "index": 1,
+                                                        "next_hop": "172.16.0.5",
+                                                        "outgoing_interface": "Ethernet1/1",
+                                                        "updated": "00:01:14"
+                                                    }
+                                                }
+                                            },
+                                            "route": "100.100.100.3/32",
+                                            "route_preference": 110,
+                                            "source_protocol": "ospf"
+                                        },
+                                        "100.100.100.4/32": {
+                                            "active": true,
+                                            "metric": 0,
+                                            "next_hop": {
+                                                "next_hop_list": {
+                                                    "1": {
+                                                        "index": 1,
+                                                        "next_hop": "100.100.100.4",
+                                                        "outgoing_interface": "Loopback0",
+                                                        "updated": "04:38:29"
+                                                    },
+                                                    "2": {
+                                                        "index": 2,
+                                                        "next_hop": "100.100.100.4",
+                                                        "outgoing_interface": "Loopback0",
+                                                        "updated": "04:38:29"
+                                                    }
+                                                }
+                                            },
+                                            "route": "100.100.100.4/32",
+                                            "route_preference": 0,
+                                            "source_protocol": "direct"
+                                        },
+                                        "100.100.100.5/32": {
+                                            "active": true,
+                                            "metric": 81,
+                                            "next_hop": {
+                                                "next_hop_list": {
+                                                    "1": {
+                                                        "index": 1,
+                                                        "next_hop": "172.16.0.5",
+                                                        "outgoing_interface": "Ethernet1/1",
+                                                        "updated": "00:17:10"
+                                                    },
+                                                    "2": {
+                                                        "index": 2,
+                                                        "next_hop": "172.16.0.17",
+                                                        "outgoing_interface": "Ethernet1/2",
+                                                        "updated": "00:17:10"
+                                                    }
+                                                }
+                                            },
+                                            "route": "100.100.100.5/32",
+                                            "route_preference": 110,
+                                            "source_protocol": "ospf"
+                                        },
+                                        "100.100.100.6/32": {
+                                            "active": true,
+                                            "metric": 81,
+                                            "next_hop": {
+                                                "next_hop_list": {
+                                                    "1": {
+                                                        "index": 1,
+                                                        "next_hop": "172.16.0.5",
+                                                        "outgoing_interface": "Ethernet1/1",
+                                                        "updated": "00:17:10"
+                                                    },
+                                                    "2": {
+                                                        "index": 2,
+                                                        "next_hop": "172.16.0.17",
+                                                        "outgoing_interface": "Ethernet1/2",
+                                                        "updated": "00:17:10"
+                                                    }
+                                                }
+                                            },
+                                            "route": "100.100.100.6/32",
+                                            "route_preference": 110,
+                                            "source_protocol": "ospf"
+                                        },
+                                        "111.111.111.1/32": {
+                                            "active": true,
+                                            "metric": 41,
+                                            "next_hop": {
+                                                "next_hop_list": {
+                                                    "1": {
+                                                        "index": 1,
+                                                        "next_hop": "172.16.0.5",
+                                                        "outgoing_interface": "Ethernet1/1",
+                                                        "updated": "00:17:10"
+                                                    },
+                                                    "2": {
+                                                        "index": 2,
+                                                        "next_hop": "172.16.0.17",
+                                                        "outgoing_interface": "Ethernet1/2",
+                                                        "updated": "00:17:10"
+                                                    }
+                                                }
+                                            },
+                                            "route": "111.111.111.1/32",
+                                            "route_preference": 110,
+                                            "source_protocol": "ospf"
+                                        },
+                                        "111.111.111.3/32": {
+                                            "active": true,
+                                            "metric": 81,
+                                            "next_hop": {
+                                                "next_hop_list": {
+                                                    "1": {
+                                                        "index": 1,
+                                                        "next_hop": "172.16.0.5",
+                                                        "outgoing_interface": "Ethernet1/1",
+                                                        "updated": "00:01:14"
+                                                    }
+                                                }
+                                            },
+                                            "route": "111.111.111.3/32",
+                                            "route_preference": 110,
+                                            "source_protocol": "ospf"
+                                        },
+                                        "111.111.111.4/32": {
+                                            "active": true,
+                                            "metric": 0,
+                                            "next_hop": {
+                                                "next_hop_list": {
+                                                    "1": {
+                                                        "index": 1,
+                                                        "next_hop": "111.111.111.4",
+                                                        "outgoing_interface": "Loopback1",
+                                                        "updated": "04:38:29"
+                                                    },
+                                                    "2": {
+                                                        "index": 2,
+                                                        "next_hop": "111.111.111.4",
+                                                        "outgoing_interface": "Loopback1",
+                                                        "updated": "04:38:29"
+                                                    }
+                                                }
+                                            },
+                                            "route": "111.111.111.4/32",
+                                            "route_preference": 0,
+                                            "source_protocol": "direct"
+                                        },
+                                        "111.111.111.5/32": {
+                                            "active": true,
+                                            "metric": 81,
+                                            "next_hop": {
+                                                "next_hop_list": {
+                                                    "1": {
+                                                        "index": 1,
+                                                        "next_hop": "172.16.0.5",
+                                                        "outgoing_interface": "Ethernet1/1",
+                                                        "updated": "00:17:10"
+                                                    },
+                                                    "2": {
+                                                        "index": 2,
+                                                        "next_hop": "172.16.0.17",
+                                                        "outgoing_interface": "Ethernet1/2",
+                                                        "updated": "00:17:10"
+                                                    }
+                                                }
+                                            },
+                                            "route": "111.111.111.5/32",
+                                            "route_preference": 110,
+                                            "source_protocol": "ospf"
+                                        },
+                                        "111.111.111.6/32": {
+                                            "active": true,
+                                            "metric": 81,
+                                            "next_hop": {
+                                                "next_hop_list": {
+                                                    "1": {
+                                                        "index": 1,
+                                                        "next_hop": "172.16.0.5",
+                                                        "outgoing_interface": "Ethernet1/1",
+                                                        "updated": "00:17:10"
+                                                    },
+                                                    "2": {
+                                                        "index": 2,
+                                                        "next_hop": "172.16.0.17",
+                                                        "outgoing_interface": "Ethernet1/2",
+                                                        "updated": "00:17:10"
+                                                    }
+                                                }
+                                            },
+                                            "route": "111.111.111.6/32",
+                                            "route_preference": 110,
+                                            "source_protocol": "ospf"
+                                        },
+                                        "172.16.0.0/30": {
+                                            "active": true,
+                                            "metric": 80,
+                                            "next_hop": {
+                                                "next_hop_list": {
+                                                    "1": {
+                                                        "index": 1,
+                                                        "next_hop": "172.16.0.5",
+                                                        "outgoing_interface": "Ethernet1/1",
+                                                        "updated": "00:17:10"
+                                                    }
+                                                }
+                                            },
+                                            "route": "172.16.0.0/30",
+                                            "route_preference": 110,
+                                            "source_protocol": "ospf"
+                                        },
+                                        "172.16.0.12/30": {
+                                            "active": true,
+                                            "metric": 80,
+                                            "next_hop": {
+                                                "next_hop_list": {
+                                                    "1": {
+                                                        "index": 1,
+                                                        "next_hop": "172.16.0.17",
+                                                        "outgoing_interface": "Ethernet1/2",
+                                                        "updated": "04:37:19"
+                                                    }
+                                                }
+                                            },
+                                            "route": "172.16.0.12/30",
+                                            "route_preference": 110,
+                                            "source_protocol": "ospf"
+                                        },
+                                        "172.16.0.16/30": {
+                                            "active": true,
+                                            "metric": 0,
+                                            "next_hop": {
+                                                "next_hop_list": {
+                                                    "1": {
+                                                        "index": 1,
+                                                        "next_hop": "172.16.0.18",
+                                                        "outgoing_interface": "Ethernet1/2",
+                                                        "updated": "04:37:40"
+                                                    }
+                                                }
+                                            },
+                                            "route": "172.16.0.16/30",
+                                            "route_preference": 0,
+                                            "source_protocol": "direct"
+                                        },
+                                        "172.16.0.18/32": {
+                                            "active": true,
+                                            "metric": 0,
+                                            "next_hop": {
+                                                "next_hop_list": {
+                                                    "1": {
+                                                        "index": 1,
+                                                        "next_hop": "172.16.0.18",
+                                                        "outgoing_interface": "Ethernet1/2",
+                                                        "updated": "04:37:40"
+                                                    }
+                                                }
+                                            },
+                                            "route": "172.16.0.18/32",
+                                            "route_preference": 0,
+                                            "source_protocol": "local"
+                                        },
+                                        "172.16.0.20/30": {
+                                            "active": true,
+                                            "metric": 80,
+                                            "next_hop": {
+                                                "next_hop_list": {
+                                                    "1": {
+                                                        "index": 1,
+                                                        "next_hop": "172.16.0.5",
+                                                        "outgoing_interface": "Ethernet1/1",
+                                                        "updated": "00:17:10"
+                                                    }
+                                                }
+                                            },
+                                            "route": "172.16.0.20/30",
+                                            "route_preference": 110,
+                                            "source_protocol": "ospf"
+                                        },
+                                        "172.16.0.24/30": {
+                                            "active": true,
+                                            "metric": 80,
+                                            "next_hop": {
+                                                "next_hop_list": {
+                                                    "1": {
+                                                        "index": 1,
+                                                        "next_hop": "172.16.0.5",
+                                                        "outgoing_interface": "Ethernet1/1",
+                                                        "updated": "00:17:10"
+                                                    }
+                                                }
+                                            },
+                                            "route": "172.16.0.24/30",
+                                            "route_preference": 110,
+                                            "source_protocol": "ospf"
+                                        },
+                                        "172.16.0.28/30": {
+                                            "active": true,
+                                            "metric": 80,
+                                            "next_hop": {
+                                                "next_hop_list": {
+                                                    "1": {
+                                                        "index": 1,
+                                                        "next_hop": "172.16.0.17",
+                                                        "outgoing_interface": "Ethernet1/2",
+                                                        "updated": "04:37:19"
+                                                    }
+                                                }
+                                            },
+                                            "route": "172.16.0.28/30",
+                                            "route_preference": 110,
+                                            "source_protocol": "ospf"
+                                        },
+                                        "172.16.0.4/30": {
+                                            "active": true,
+                                            "metric": 0,
+                                            "next_hop": {
+                                                "next_hop_list": {
+                                                    "1": {
+                                                        "index": 1,
+                                                        "next_hop": "172.16.0.6",
+                                                        "outgoing_interface": "Ethernet1/1",
+                                                        "updated": "04:37:40"
+                                                    }
+                                                }
+                                            },
+                                            "route": "172.16.0.4/30",
+                                            "route_preference": 0,
+                                            "source_protocol": "direct"
+                                        },
+                                        "172.16.0.6/32": {
+                                            "active": true,
+                                            "metric": 0,
+                                            "next_hop": {
+                                                "next_hop_list": {
+                                                    "1": {
+                                                        "index": 1,
+                                                        "next_hop": "172.16.0.6",
+                                                        "outgoing_interface": "Ethernet1/1",
+                                                        "updated": "04:37:40"
+                                                    }
+                                                }
+                                            },
+                                            "route": "172.16.0.6/32",
+                                            "route_preference": 0,
+                                            "source_protocol": "local"
+                                        },
+                                        "172.16.0.8/30": {
+                                            "active": true,
+                                            "metric": 80,
+                                            "next_hop": {
+                                                "next_hop_list": {
+                                                    "1": {
+                                                        "index": 1,
+                                                        "next_hop": "172.16.0.17",
+                                                        "outgoing_interface": "Ethernet1/2",
+                                                        "updated": "04:37:19"
+                                                    }
+                                                }
+                                            },
+                                            "route": "172.16.0.8/30",
+                                            "route_preference": 110,
+                                            "source_protocol": "ospf"
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "management": {
+                            "address_family": {
+                                "ipv4": {
+                                    "routes": {
+                                        "192.168.0.0/23": {
+                                            "active": true,
+                                            "metric": 0,
+                                            "next_hop": {
+                                                "next_hop_list": {
+                                                    "1": {
+                                                        "index": 1,
+                                                        "next_hop": "192.168.0.24",
+                                                        "outgoing_interface": "mgmt0",
+                                                        "updated": "04:38:29"
+                                                    }
+                                                }
+                                            },
+                                            "route": "192.168.0.0/23",
+                                            "route_preference": 0,
+                                            "source_protocol": "direct"
+                                        },
+                                        "192.168.0.24/32": {
+                                            "active": true,
+                                            "metric": 0,
+                                            "next_hop": {
+                                                "next_hop_list": {
+                                                    "1": {
+                                                        "index": 1,
+                                                        "next_hop": "192.168.0.24",
+                                                        "outgoing_interface": "mgmt0",
+                                                        "updated": "04:38:29"
+                                                    }
+                                                }
+                                            },
+                                            "route": "192.168.0.24/32",
+                                            "route_preference": 0,
+                                            "source_protocol": "local"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "ops_schema": {
+                    "info": {
+                        "ip_routing_enabled": {
+                            "missed": [],
+                            "path": [],
+                            "schema": "*",
+                            "schemaType": {
+                                "py/type": "builtins.str"
+                            }
+                        },
+                        "ipv6_unicast_routing_enabled": {
+                            "missed": [],
+                            "path": [],
+                            "schema": "*",
+                            "schemaType": {
+                                "py/type": "builtins.str"
+                            }
+                        },
+                        "vrf": {
+                            "Any  (str) *": {
+                                "address_family": {
+                                    "Any  (str) *": {
+                                        "routes": {
+                                            "Any  (str) *": {
+                                                "active": {
+                                                    "missed": [],
+                                                    "path": [],
+                                                    "schema": "*",
+                                                    "schemaType": {
+                                                        "py/type": "builtins.str"
+                                                    }
+                                                },
+                                                "last_updated": {
+                                                    "missed": [],
+                                                    "path": [],
+                                                    "schema": "*",
+                                                    "schemaType": {
+                                                        "py/type": "builtins.str"
+                                                    }
+                                                },
+                                                "metric": {
+                                                    "missed": [],
+                                                    "path": [],
+                                                    "schema": "*",
+                                                    "schemaType": {
+                                                        "py/type": "builtins.str"
+                                                    }
+                                                },
+                                                "next_hop": {
+                                                    "next_hop_list": {
+                                                        "Any  (str) *": {
+                                                            "index": {
+                                                                "missed": [],
+                                                                "path": [],
+                                                                "schema": "*",
+                                                                "schemaType": {
+                                                                    "py/type": "builtins.str"
+                                                                }
+                                                            },
+                                                            "next_hop": {
+                                                                "missed": [],
+                                                                "path": [],
+                                                                "schema": "*",
+                                                                "schemaType": {
+                                                                    "py/type": "builtins.str"
+                                                                }
+                                                            },
+                                                            "outgoing_interface": {
+                                                                "missed": [],
+                                                                "path": [],
+                                                                "schema": "*",
+                                                                "schemaType": {
+                                                                    "py/type": "builtins.str"
+                                                                }
+                                                            },
+                                                            "updated": {
+                                                                "missed": [],
+                                                                "path": [],
+                                                                "schema": "*",
+                                                                "schemaType": {
+                                                                    "py/type": "builtins.str"
+                                                                }
+                                                            }
+                                                        }
+                                                    },
+                                                    "outgoing_interface": {
+                                                        "Any  (str) *": {
+                                                            "outgoing_interface": {
+                                                                "missed": [],
+                                                                "path": [],
+                                                                "schema": "*",
+                                                                "schemaType": {
+                                                                    "py/type": "builtins.str"
+                                                                }
+                                                            }
+                                                        }
+                                                    },
+                                                    "special_nex_hop": {
+                                                        "Any  (str) *": {
+                                                            "special_next_hop": {
+                                                                "missed": [],
+                                                                "path": [],
+                                                                "schema": "*",
+                                                                "schemaType": {
+                                                                    "py/type": "builtins.str"
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                },
+                                                "route": {
+                                                    "missed": [],
+                                                    "path": [],
+                                                    "schema": "*",
+                                                    "schemaType": {
+                                                        "py/type": "builtins.str"
+                                                    }
+                                                },
+                                                "route_preference": {
+                                                    "missed": [],
+                                                    "path": [],
+                                                    "schema": "*",
+                                                    "schemaType": {
+                                                        "py/type": "builtins.str"
+                                                    }
+                                                },
+                                                "source_protocol": {
+                                                    "missed": [],
+                                                    "path": [],
+                                                    "schema": "*",
+                                                    "schemaType": {
+                                                        "py/type": "builtins.str"
+                                                    }
+                                                },
+                                                "source_protocol_codes": {
+                                                    "missed": [],
+                                                    "path": [],
+                                                    "schema": "*",
+                                                    "schemaType": {
+                                                        "py/type": "builtins.str"
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
