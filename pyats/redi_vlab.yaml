@@ -1,0 +1,79 @@
+devices:
+  N9K1:
+    connections:
+      cli:
+        ip: 192.168.0.21
+        protocol: ssh
+    credentials:
+      default:
+        password: cisco
+        username: admin
+      enable:
+        password: cisco
+    os: nxos
+    type: nxos
+  N9K2:
+    connections:
+      cli:
+        ip: 192.168.0.22
+        protocol: ssh
+    credentials:
+      default:
+        password: cisco
+        username: admin
+      enable:
+        password: cisco
+    os: nxos
+    type: nxos
+  N9K3:
+    connections:
+      cli:
+        ip: 192.168.0.23
+        protocol: ssh
+    credentials:
+      default:
+        password: cisco
+        username: admin
+      enable:
+        password: cisco
+    os: nxos
+    type: nxos
+  N9K4:
+    connections:
+      cli:
+        ip: 192.168.0.24
+        protocol: ssh
+    credentials:
+      default:
+        password: cisco
+        username: admin
+      enable:
+        password: cisco
+    os: nxos
+    type: nxos
+  N9K5:
+    connections:
+      cli:
+        ip: 192.168.0.25
+        protocol: ssh
+    credentials:
+      default:
+        password: cisco
+        username: admin
+      enable:
+        password: cisco
+    os: nxos
+    type: nxos
+  N9K6:
+    connections:
+      cli:
+        ip: 192.168.0.26
+        protocol: ssh
+    credentials:
+      default:
+        password: cisco
+        username: admin
+      enable:
+        password: cisco
+    os: nxos
+    type: nxos
