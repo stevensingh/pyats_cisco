@@ -19,16 +19,16 @@ Connect
     # Initializes the pyATS/Genie Testbed
     use genie testbed "${testbed}"
 
-    # Connect to both device
+    # Connect to all device
     connect to device "N9K1"
     connect to device "N9K2"
     connect to device "N9K3"
     connect to device "N9K4"
     connect to device "N9K5"
     connect to device "N9K6"
-
+    connect to device "N9K7"
 Profile the devices
     Profile the system for "config;interface;platform;ospf;arp;routing;vrf;vlan;bgp;vxlan" on devices "N9K1;N9K2;N9K3;N9K4;N9K5;N9K6" as "./new_snapshot"
 
 Compare snapshots
-    Compare profile "../robot_initial_snapshot/good_snapshot" with "./new_snapshot" on devices "N9K1;N9K2;N9K3;N9K4;N9K5;N9K6"
+    Compare profile "../robot_initial_snapshot/good_snapshot" with "./new_snapshot" on devices "N9K1;N9K2;N9K3;N9K4;N9K5;N9K6:N9K7"
